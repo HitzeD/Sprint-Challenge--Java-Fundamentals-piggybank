@@ -7,7 +7,7 @@ public class Nickel extends Money
 	public int totalCoins = 0;
 	public int addingBank;
 
-	public Nickel(int addingBank)
+	public void Nickel(int addingBank)
 	{
 		add(addingBank);
 	}
