@@ -12,7 +12,7 @@ public class Penny extends Money
 		add(addingBank);
 	}
 
-	public void double add(int addingBank)
+	public double add(int addingBank)
 	{
 		if(addingBank == 0)
 		{

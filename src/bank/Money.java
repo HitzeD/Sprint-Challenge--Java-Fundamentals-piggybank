@@ -4,8 +4,8 @@ public abstract class Money
 {
 	public double value;
 	public int totalCoins;
-	
-	public abstract int add();
+
+	public abstract double add();
 
 	public double getValue()
 	{

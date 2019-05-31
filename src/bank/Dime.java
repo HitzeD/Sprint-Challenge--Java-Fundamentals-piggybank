@@ -12,7 +12,8 @@ public class Dime extends Money
 		add(addingBank);
 	}
 
-	public void double add(int addingBank)
+	@Override
+	public double add(int addingBank)
 	{
 		if(addingBank == 0)
 		{
